@@ -19,7 +19,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 folderName := "filesToConvert"
 directory = %A_WorkingDir%\%folderName%
 filesConverted := 0
-procentsToRoundToOne := 98.0      ;eg. setting to 98.0 then 98.0 would turn into 1
+procentsToRoundToOne := 100.0      ;eg. setting to 98.0 then 98.0 would turn into 1
 
 card := ["A", "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K"]
 SetFormat, float, 0.3
