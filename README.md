@@ -17,3 +17,4 @@ format2 example - AA:0.0,A2s:0.0,A2o:0.0,A3s:0.0,A3o:0.0,A4s:0.0,A4o:0.0,A5s:0.0
 How to use
 ------------------------------------------------------
 Put folder for conversion into folder filesToConvert in the same directory as the script. Example of the folder: 100bb, it has SB BTN CO BB folders
+Last version that it worked on is 1.1.33.10 msgbox % "my ahk version: " A_AhkVersion
